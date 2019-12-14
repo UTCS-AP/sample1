@@ -1,7 +1,9 @@
 package ir.ac.ut;
 
-public class B {
+class B {
     String bS;
 
-
+    B(String bS) {
+        this.bS = bS;
+    }
 }
